@@ -1,0 +1,103 @@
+/*Selektor znacznika*/
+
+p {
+    background-color: red;
+}
+
+/*Selektor id*/
+#container {
+    background-color: yellow;
+}
+
+/*Selektor klasy*/
+.highlight {
+    background-color: green;
+}
+
+section > h2 {
+    background-color: blue;
+}
+
+
+section h2 {
+    background-color: grey;
+}
+
+
+/*selektor uniwersalny*/
+* {
+    color: darkorange;
+}
+
+p.content {
+    color: purple;
+}
+
+
+/*=================*/
+
+h1 {
+    color: pink !important;
+}
+
+.header.blue {
+    color: brown;
+}
+
+
+#main-header {
+    color: green;
+}
+
+
+/*================*/
+/*pozycje*/
+.block {
+    background-color: green;
+    height: 500px;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    margin: 0;
+}
+.blue {
+    background-color: blue;
+    color: white;
+    margin: 0;
+}
+
+
+/*pozycja relatywna*/
+
+/*
+.red {
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+*/
+
+/*Pozycja absolutna - ustawiana jest względem najczęściej bezpośredniego rodzica*/
+/*
+.red {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+*/
+
+/*Fixed position - a'la pop-up*/
+.red {
+    position: fixed;
+    bottom: 0;
+
+}
+
+
+
+
+
+
